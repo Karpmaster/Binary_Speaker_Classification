@@ -9,7 +9,7 @@ Simple example:
 Assume we contain features of dog, cat, frog in our dataset. Train our model with this dataset. Now we user a another dog file. The expected predict result should be: dog. If we use a cat file, we should get a cat etc. No problem?
 What if now I purposely use a duck file to test the model. But the we don't have class(label) that is duck. What is the result?
 
-Probably the frog class since the sound of the frog is the most similar(least loss) to a duck. a.k.a. This kind of One-vs-One classification cannot regonize things which is not within the dataset.
+Probably the frog class since the sound of the frog is the most similar(least loss) to a duck. a.k.a. This kind of Multi-class classification cannot regonize things which is not within the dataset.
 (Unless, you add a forth class, assume: other, which contians all kinds of other sounds of different animals.)
 
 ## Method
