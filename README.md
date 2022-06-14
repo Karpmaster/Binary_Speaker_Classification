@@ -2,7 +2,7 @@
 A Speaker Classification Project which uses a binary classification method.
 
 ## Introduction
-Since this project is assumed to be used on a security door lock system, an One-vs-One structure can be quite akward.
+Since this project is assumed to be used on a security door lock system, an Multi-class(Softmax) structure can be quite akward.
 If we use an softmax activation function in the output layer and apply a category cross entropy loss function, anything within the label of the dataset can surely be classified.
 
 Simple example: 
